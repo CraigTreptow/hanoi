@@ -1,5 +1,6 @@
 defmodule Hanoi do
   def start( ) do
-    IO.puts "Working on Hanoi"
+    number_of_disks = Hanoi.Initializer.get_disks( )
+    IO.puts "Working on Hanoi with #{number_of_disks}"
   end
 end

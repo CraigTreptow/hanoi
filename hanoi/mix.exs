@@ -8,7 +8,8 @@ defmodule Hanoi.MixProject do
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      default_task: "hanoi",   # the name specified in lib/mix/tasks/hanoi.ex
+      # the name specified in lib/mix/tasks/hanoi.ex
+      default_task: "hanoi"
     ]
   end
 

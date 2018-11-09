@@ -7,6 +7,6 @@ defmodule Mix.Tasks.Hanoi do
   @shortdoc "Simply runs the Hanoi.start/0 function"
 
   def run(_) do
-    Hanoi.start( )
+    Hanoi.start()
   end
 end

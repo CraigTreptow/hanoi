@@ -1,4 +1,4 @@
-defmodule Hanoi.Tower do
+defmodule Hanoi.Solver do
 
 
   def display_towers(tower1, tower2, tower3, number_of_disks) do
